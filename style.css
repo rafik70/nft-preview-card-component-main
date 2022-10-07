@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{ 
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body{ 
+    min-height: 100vh;
+     background-color: hsl(217, 54%, 11%);
+     font-size:18px;
+     display: flex;
+     justify-content: center ;
+     align-items: center ;
+      
+}
+main{ 
+    width: 350px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 15px;
+    box-shadow: 0px 10px 10px 10px hsl(214, 56%, 12%), 15px 6px 20px  hsl(215, 57%, 14%);
+}
+.content { 
+      margin-top: 20px;
+}
+.container-image{ 
+    border-radius:12px;
+    background-image: url("images/image-equilibrium.jpg") ;
+    background-size: 310px ;
+    width: 310px;
+    height: 310px;
+    background-repeat:no-repeat;
+    background-position:center;
+    overflow: hidden;
+    cursor: pointer;
+}
+.container-image:hover .colorcyan{ 
+    display: flex;
+}
+.colorcyan { 
+    background: rgba(60, 216, 216, 0.5);
+    width: 310px;
+    height: 310px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+
+h3{ 
+     color:  hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+.cursorcolor:hover{ 
+      color: hsl(178, 100%, 50%);
+      cursor: pointer;
+}
+.text{ 
+     color: hsl(215, 51%, 70%);
+     font-weight: 300;
+     opacity: .7;
+     margin-top:  20px;
+     margin-bottom: 20px;
+}
+hr{
+   color: hsl(215, 32%, 27%);
+   margin-top: 20px;
+   opacity: .2;
+}
+.iconeethereum{
+    font-weight: 300;
+    color: hsl(178, 100%, 50%);
+}
+
+.iconeethereum img { 
+    width: 10px;
+    position:relative;
+    margin-right: 5px;
+    top : 1px;
+}
+.iconclock { 
+    float: right;
+    color: hsl(215, 51%, 70%);
+     font-weight: 300;
+     opacity: .7;
+      
+
+}
+.iconclock img{ 
+     width: 18px;
+     margin-right: 5px;
+     position: relative;
+     top : 3px; 
+}
+.borderforimage{
+    width: 40px;
+     border: 2px solid hsl(0, 0%, 100%);
+     border-radius: 100%;
+}
+.creationfof{ 
+     display: flex;
+     align-items: center;
+     margin-top: 15px;
+}
+.creationfof img {
+
+     margin-right: 20px;
+}
+.name{ 
+    color:  hsl(0, 0%, 100%);
+    font-weight: 300;
+}
+.crea{ 
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    opacity: .7;
+ 
+}
